@@ -1,65 +1,58 @@
 [
   {
-    "Title": "The Amazing Spider-Man #171",
-    "Grade": "9.4\u20139.8",
-    "EstValue": "$125\u2013$500",
-    "KeyNotes": "Minor key \u2013 team-up with Nova",
-    "Slab": "Only if 9.8",
-    "Event": "Post-Nova #12 continuation",
-    "Creator": "Len Wein, Ross Andru"
+    "Title": "Amazing Spider-Man #139",
+    "Grade": "9.4–9.8",
+    "EstValue": "$150–$700",
+    "KeyNotes": "1st Grizzly (Maxwell Markham) – minor key, cult villain",
+    "Event": "Return of the Fearsome Fly!",
+    "Creator": "Gil Kane (cover), Gerry Conway (writer)"
   },
   {
-    "Title": "The Amazing Spider-Man #317",
-    "Grade": "9.4\u20139.8",
-    "EstValue": "$150\u2013$200",
-    "KeyNotes": "Classic Venom cover by McFarlane",
-    "Slab": "Yes, if 9.6+",
-    "Event": "3rd Venom appearance",
-    "Creator": "David Michelinie, Todd McFarlane"
+    "Title": "Amazing Spider-Man #315",
+    "Grade": "9.4–9.8",
+    "EstValue": "$70–$200",
+    "KeyNotes": "Early Venom return & 2nd full cover; part of McFarlane’s Venom trilogy",
+    "Event": "Hydro-Man & Venom team-up",
+    "Creator": "Todd McFarlane (art & cover), David Michelinie (writer)"
   },
   {
-    "Title": "The Amazing Spider-Man #183",
-    "Grade": "9.4\u20139.8",
-    "EstValue": "$140\u2013$200",
-    "KeyNotes": "1st Big Wheel (cult favorite)",
-    "Slab": "Only 9.8",
-    "Event": "Big Wheel debut",
-    "Creator": "Marv Wolfman, Ross Andru"
+    "Title": "Amazing Spider-Man #221",
+    "Grade": "9.4–9.8",
+    "EstValue": "$60–$150",
+    "KeyNotes": "1st Ramrod (cyborg villain); cameo Debra Whitman",
+    "Event": "Crisis on Campus – Race of Ramrod",
+    "Creator": "Denny O’Neil (script), Win Mortimer (art)"
   },
   {
     "Title": "Marvel Tales #115",
-    "Grade": "9.4\u20139.8",
-    "EstValue": "$5\u2013$20",
-    "KeyNotes": "Reprint of ASM #138",
-    "Slab": "No",
+    "Grade": "9.4–9.8",
+    "EstValue": "$5–$50",
+    "KeyNotes": "Reprint of ASM #138 “Mindworm” – no new content",
     "Event": "Mindworm reprint",
-    "Creator": "Gil Kane, John Romita Sr."
-  },
-  {
-    "Title": "Peter Parker, The Spectacular Spider-Man #71",
-    "Grade": "9.4\u20139.8",
-    "EstValue": "$40\u2013$100",
-    "KeyNotes": "Gun violence theme",
-    "Slab": "No",
-    "Event": "None",
-    "Creator": "Bill Mantlo, John Romita Jr."
+    "Creator": "Gil Kane (cover), John Romita Sr. (cover)"
   },
   {
     "Title": "Peter Parker, The Spectacular Spider-Man #58",
-    "Grade": "9.4\u20139.8",
-    "EstValue": "$60\u2013$100",
-    "KeyNotes": "Beetle\u2019s armor debut",
-    "Slab": "Only 9.8",
-    "Event": "Beetle's new suit",
-    "Creator": "Roger Stern, John Byrne"
+    "Grade": "9.4–9.8",
+    "EstValue": "$65–$110",
+    "KeyNotes": "1st Beetle Mark II armor debut; Ringer cover",
+    "Event": "Beetle’s new armor",
+    "Creator": "Roger Stern (story), John Byrne (pencils)"
+  },
+  {
+    "Title": "Peter Parker, The Spectacular Spider-Man #71",
+    "Grade": "9.4–9.8",
+    "EstValue": "$30–$100",
+    "KeyNotes": "Non-key; striking “With This Gun…” cover",
+    "Event": "Gun-themed one-off",
+    "Creator": "Bill Mantlo (script), John Romita Jr. & Jim Mooney (art)"
   },
   {
     "Title": "Marvel Team-Up #115",
-    "Grade": "9.4\u20139.8",
-    "EstValue": "$70\u2013$150",
-    "KeyNotes": "Spidey + Valkyrie, 1st Meru",
-    "Slab": "Only 9.8",
-    "Event": "1st Meru",
-    "Creator": "J.M. DeMatteis, Herb Trimpe, Bob Layton"
+    "Grade": "9.4–9.8",
+    "EstValue": "$20–$150",
+    "KeyNotes": "1st (and only) Meru the Mind-Bender – obscure key",
+    "Event": "Spider-Man & Valkyrie vs. Meru",
+    "Creator": "J.M. DeMatteis (story), Herb Trimpe (pencils), Bob Layton (cover)"
   }
 ]
