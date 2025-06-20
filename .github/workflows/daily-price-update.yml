@@ -1,0 +1,73 @@
+name: Daily Comic Price Update
+
+on:
+  schedule:
+    # Run every day at 6:00 AM EST (11:00 UTC)
+    - cron: '0 11 * * *'
+  
+  # Allow manual triggering for testing
+  workflow_dispatch:
+
+jobs:
+  update-prices:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run price scraper
+      run: |
+        echo "🕷️ Starting daily price update..."
+        python run_update.py
+        echo "✅ Price scraper completed"
+
+    - name: Check for changes
+      id: verify-changed-files
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "🔄 Changes detected in comic data"
+          echo "changed=true" >> $GITHUB_OUTPUT
+        else
+          echo "📊 No price changes detected"
+          echo "changed=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Commit and push changes
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Get current date
+        CURRENT_DATE=$(date +'%Y-%m-%d')
+        
+        # Check how many comics were updated by counting changes in the JSON
+        UPDATED_COUNT=$(git diff --name-only | grep -c "\.json" || echo "0")
+        
+        # Add and commit changes
+        git add data/spiderman_comics_data.json
+        git commit -m "🕷️ Daily price update - ${CURRENT_DATE} - Updated comic prices"
+        
+        # Push changes
+        git push
+        
+        echo "✅ Successfully pushed price updates to repository"
+
+    - name: No changes to commit
+      if: steps.verify-changed-files.outputs.changed == 'false'
+      run: |
+        CURRENT_DATE=$(date +'%Y-%m-%d')
+        echo "📊 No price changes on ${CURRENT_DATE} - repository up to date"
