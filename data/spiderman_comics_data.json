@@ -1,0 +1,156 @@
+[
+    {
+        "Title": "Amazing Spider-Man #315",
+        "IssueNumber": 315,
+        "Series": "Amazing Spider-Man",
+        "Year": 1988,
+        "ManualData": {
+            "Grade": null,
+            "EstValue": null,
+            "KeyNotes": null,
+            "Event": null,
+            "Creator": null
+        },
+        "PriceChartingData": {
+            "ungraded": null,
+            "grade_6_0": null,
+            "grade_8_0": null,
+            "url": null,
+            "source": "PriceCharting.com",
+            "lastUpdated": "2025-06-20",
+            "status": "not_found"
+        }
+    },
+    {
+        "Title": "Amazing Spider-Man #221",
+        "IssueNumber": 221,
+        "Series": "Amazing Spider-Man",
+        "Year": 1980,
+        "ManualData": {
+            "Grade": null,
+            "EstValue": null,
+            "KeyNotes": null,
+            "Event": null,
+            "Creator": null
+        },
+        "PriceChartingData": {
+            "ungraded": null,
+            "grade_6_0": null,
+            "grade_8_0": null,
+            "url": null,
+            "source": "PriceCharting.com",
+            "lastUpdated": "2025-06-20",
+            "status": "not_found"
+        }
+    },
+    {
+        "Title": "Peter Parker, The Spectacular Spider-Man #58",
+        "IssueNumber": 58,
+        "Series": "Peter Parker, The Spectacular Spider-Man",
+        "Year": 1980,
+        "ManualData": {
+            "Grade": null,
+            "EstValue": null,
+            "KeyNotes": null,
+            "Event": null,
+            "Creator": null
+        },
+        "PriceChartingData": {
+            "ungraded": null,
+            "grade_6_0": null,
+            "grade_8_0": null,
+            "url": null,
+            "source": "PriceCharting.com",
+            "lastUpdated": "2025-06-20",
+            "status": "different_series"
+        }
+    },
+    {
+        "Title": "Peter Parker, The Spectacular Spider-Man #71",
+        "IssueNumber": 71,
+        "Series": "Peter Parker, The Spectacular Spider-Man",
+        "Year": 1981,
+        "ManualData": {
+            "Grade": null,
+            "EstValue": null,
+            "KeyNotes": null,
+            "Event": null,
+            "Creator": null
+        },
+        "PriceChartingData": {
+            "ungraded": null,
+            "grade_6_0": null,
+            "grade_8_0": null,
+            "url": null,
+            "source": "PriceCharting.com",
+            "lastUpdated": "2025-06-20",
+            "status": "different_series"
+        }
+    },
+    {
+        "Title": "Amazing Spider-Man #116",
+        "IssueNumber": 116,
+        "Series": "Amazing Spider-Man",
+        "Year": 1972,
+        "ManualData": {
+            "Grade": null,
+            "EstValue": null,
+            "KeyNotes": null,
+            "Event": null,
+            "Creator": null
+        },
+        "PriceChartingData": {
+            "ungraded": null,
+            "grade_6_0": null,
+            "grade_8_0": null,
+            "url": null,
+            "source": "PriceCharting.com",
+            "lastUpdated": "2025-06-20",
+            "status": "not_found"
+        }
+    },
+    {
+        "Title": "Amazing Spider-Man #193",
+        "IssueNumber": 193,
+        "Series": "Amazing Spider-Man",
+        "Year": 1978,
+        "ManualData": {
+            "Grade": null,
+            "EstValue": null,
+            "KeyNotes": null,
+            "Event": null,
+            "Creator": null
+        },
+        "PriceChartingData": {
+            "ungraded": null,
+            "grade_6_0": null,
+            "grade_8_0": null,
+            "url": null,
+            "source": "PriceCharting.com",
+            "lastUpdated": "2025-06-20",
+            "status": "not_found"
+        }
+    },
+    {
+        "Title": "Amazing Spider-Man #115",
+        "IssueNumber": 115,
+        "Series": "Amazing Spider-Man",
+        "Year": 1972,
+        "ManualData": {
+            "Grade": null,
+            "EstValue": null,
+            "KeyNotes": null,
+            "Event": null,
+            "Creator": null
+        },
+        "PriceChartingData": {
+            "ungraded": null,
+            "grade_6_0": null,
+            "grade_8_0": null,
+            "url": null,
+            "source": "PriceCharting.com",
+            "lastUpdated": "2025-06-20",
+            "status": "not_found"
+        }
+    }
+]
