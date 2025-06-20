@@ -2,33 +2,35 @@
     {
         "Title": "Amazing Spider-Man #315",
         "Grade": "Ungraded",
-        "EstValue": "$70–$200",
+        "EstValue": "$322.48",
         "KeyNotes": "Early Venom return & 2nd full cover; part of McFarlane’s Venom trilogy",
         "Event": "Hydro-Man & Venom team-up",
         "Creator": "Todd McFarlane (art & cover), David Michelinie (writer)",
         "PriceData": {
-            "ungraded": null,
-            "grade_6_0": null,
+            "ungraded": 322.48,
+            "grade_6_0": 303.5,
             "grade_8_0": null,
             "source": "PriceCharting.com",
             "updated": "2025-06-20",
-            "status": "not_found"
+            "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-315-1988",
+            "status": "found"
         }
     },
     {
         "Title": "Amazing Spider-Man #221",
         "Grade": "Ungraded",
-        "EstValue": "$60–$150",
+        "EstValue": "$168.75",
         "KeyNotes": "1st Ramrod (cyborg villain); cameo Debra Whitman",
         "Event": "Crisis on Campus – Race of Ramrod",
         "Creator": "Denny O’Neil (script), Win Mortimer (art)",
         "PriceData": {
-            "ungraded": null,
-            "grade_6_0": null,
+            "ungraded": 168.75,
+            "grade_6_0": 192.58,
             "grade_8_0": null,
             "source": "PriceCharting.com",
             "updated": "2025-06-20",
-            "status": "not_found"
+            "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-221-1979",
+            "status": "found"
         }
     },
     {
@@ -66,49 +68,52 @@
     {
         "Title": "Amazing Spider-Man #116",
         "Grade": "Ungraded",
-        "EstValue": "$100–$250",
+        "EstValue": "$19.86",
         "KeyNotes": "Adaptation of Spectacular Spider-Man Magazine #1; notable story arc",
         "Event": "Spidey vs. Smasher & Richard Raleigh arc begins",
         "Creator": "Stan Lee (writer), John Romita Sr. (cover), Gerry Conway (adaptation)",
         "PriceData": {
-            "ungraded": null,
-            "grade_6_0": null,
-            "grade_8_0": null,
+            "ungraded": 19.86,
+            "grade_6_0": 45.25,
+            "grade_8_0": 1320.0,
             "source": "PriceCharting.com",
             "updated": "2025-06-20",
-            "status": "not_found"
+            "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-116-1973",
+            "status": "found"
         }
     },
     {
         "Title": "Amazing Spider-Man #193",
         "Grade": "Ungraded",
-        "EstValue": "$60–$150",
+        "EstValue": "$10.24",
         "KeyNotes": "2nd appearance of Fly; minor villain key",
         "Event": "The Wings of the Fearsome Fly!",
         "Creator": "Marv Wolfman (writer), Keith Pollard (art & cover)",
         "PriceData": {
-            "ungraded": null,
-            "grade_6_0": null,
+            "ungraded": 10.24,
+            "grade_6_0": 16.29,
             "grade_8_0": null,
             "source": "PriceCharting.com",
             "updated": "2025-06-20",
-            "status": "not_found"
+            "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-193-1978",
+            "status": "found"
         }
     },
     {
         "Title": "Amazing Spider-Man #115",
         "Grade": "Ungraded",
-        "EstValue": "$80–$250",
+        "EstValue": "$20.25",
         "KeyNotes": "Doctor Octopus vs Hammerhead; classic villain rivalry",
         "Event": "Spidey caught in gang war (Doc Ock vs. Hammerhead)",
         "Creator": "Gerry Conway (writer), John Romita Sr. (cover), John Romita Sr. & Tony Mortellaro (art)",
         "PriceData": {
-            "ungraded": null,
-            "grade_6_0": null,
-            "grade_8_0": null,
+            "ungraded": 20.25,
+            "grade_6_0": 59.0,
+            "grade_8_0": 3000.0,
             "source": "PriceCharting.com",
             "updated": "2025-06-20",
-            "status": "not_found"
+            "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-115-1972",
+            "status": "found"
         }
     }
 ]
