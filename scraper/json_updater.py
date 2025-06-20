@@ -1,7 +1,7 @@
 # json_updater.py
 """
-Updates the comic JSON file with new pricing data from PriceCharting
-Transforms to enhanced hybrid structure with ManualData and PriceChartingData
+Updates the comic JSON file with live pricing data from PriceCharting
+Keeps original structure simple and adds PriceData section
 """
 
 import json
@@ -12,7 +12,7 @@ from .price_scraper import PriceChartingScraper
 
 def update_json_with_prices(json_path: str):
     """
-    Read JSON, transform to enhanced hybrid structure, add price data, save back to same file
+    Read JSON, add PriceData section, update EstValue from scraper
     """
     print("📖 Loading comic data...")
     
@@ -22,46 +22,7 @@ def update_json_with_prices(json_path: str):
     
     print(f"Found {len(comics_data)} comics to process")
     
-    # Transform to enhanced hybrid structure
-    enhanced_comics = []
-    
-    for i, comic in enumerate(comics_data):
-        print(f"\n🔄 Processing {i+1}/{len(comics_data)}: {comic.get('Title', 'Unknown')}")
-        
-        # Extract issue info from title
-        title = comic.get('Title', '')
-        issue_number = extract_issue_number(title)
-        series = extract_series(title)
-        year = estimate_year(series, issue_number) if issue_number else None
-        
-        # Create enhanced structure
-        enhanced_comic = {
-            'Title': title,
-            'IssueNumber': issue_number,
-            'Series': series,
-            'Year': year,
-            'ManualData': {
-                'Grade': comic.get('Grade'),
-                'EstValue': comic.get('EstValue'),
-                'KeyNotes': comic.get('KeyNotes'),
-                'Event': comic.get('Event'),
-                'Creator': comic.get('Creator')
-            },
-            'PriceChartingData': {
-                'ungraded': None,
-                'grade_6_0': None,
-                'grade_8_0': None,
-                'url': None,
-                'source': 'PriceCharting.com',
-                'lastUpdated': time.strftime('%Y-%m-%d'),
-                'status': 'pending'
-            }
-        }
-        
-        enhanced_comics.append(enhanced_comic)
-        print(f"  📋 Structured: {series} #{issue_number} ({year})")
-    
-    # Now scrape prices for Amazing Spider-Man issues
+    # Start scraper
     print(f"\n🕷️ Starting PriceCharting scraper...")
     scraper = PriceChartingScraper()
     
@@ -72,50 +33,72 @@ def update_json_with_prices(json_path: str):
     print(f"📊 Found {len(available_issues)} issues on PriceCharting")
     
     # Update each comic with price data
-    for comic in enhanced_comics:
-        if comic['Series'] == 'Amazing Spider-Man' and comic['IssueNumber']:
-            issue_num = comic['IssueNumber']
+    for i, comic in enumerate(comics_data):
+        print(f"\n🔄 Processing {i+1}/{len(comics_data)}: {comic['Title']}")
+        
+        # Extract issue number from title
+        issue_number = extract_issue_number(comic['Title'])
+        series = extract_series(comic['Title'])
+        
+        # Set grade to "Ungraded" since user said all comics are ungraded
+        comic['Grade'] = 'Ungraded'
+        
+        # Add empty PriceData section
+        comic['PriceData'] = {
+            'ungraded': None,
+            'grade_6_0': None,
+            'grade_8_0': None,
+            'source': 'PriceCharting.com',
+            'updated': time.strftime('%Y-%m-%d'),
+            'status': 'pending'
+        }
+        
+        # Try to scrape prices if it's Amazing Spider-Man
+        if series == 'Amazing Spider-Man' and issue_number and issue_number in available_map:
+            print(f"  💰 Scraping prices for Amazing Spider-Man #{issue_number}...")
             
-            if issue_num in available_map:
-                print(f"  💰 Scraping prices for Amazing Spider-Man #{issue_num}...")
-                
-                # Scrape prices for this issue
-                prices = scraper.scrape_comic_prices(issue_num)
-                
-                # Update PriceCharting data
-                comic['PriceChartingData'].update({
-                    'ungraded': prices.get('ungraded'),
-                    'grade_6_0': prices.get('grade_6_0'),
-                    'grade_8_0': prices.get('grade_8_0'),
-                    'url': available_map[issue_num].get('url'),
-                    'status': 'found' if any(prices.values()) else 'no_prices'
-                })
-                
-                print(f"    ✅ Ungraded: ${prices.get('ungraded', 'N/A')}")
-                print(f"    ✅ Grade 6.0: ${prices.get('grade_6_0', 'N/A')}")
-                print(f"    ✅ Grade 8.0: ${prices.get('grade_8_0', 'N/A')}")
-                
-            else:
-                print(f"  ⚠️  Amazing Spider-Man #{issue_num} not found on PriceCharting")
-                comic['PriceChartingData']['status'] = 'not_found'
-        
-        elif comic['Series'].startswith('Peter Parker'):
-            print(f"  ℹ️  Skipping {comic['Series']} #{comic['IssueNumber']} (not on Amazing Spider-Man page)")
-            comic['PriceChartingData']['status'] = 'different_series'
-        
+            # Scrape prices for this issue
+            prices = scraper.scrape_comic_prices(issue_number)
+            
+            # Update PriceData
+            comic['PriceData'].update({
+                'ungraded': prices.get('ungraded'),
+                'grade_6_0': prices.get('grade_6_0'),
+                'grade_8_0': prices.get('grade_8_0'),
+                'status': 'found' if prices.get('ungraded') else 'no_prices'
+            })
+            
+            # Update EstValue with ungraded price from scraper
+            ungraded_price = prices.get('ungraded')
+            if ungraded_price:
+                comic['EstValue'] = f"${ungraded_price:.2f}"
+                print(f"    ✅ Updated EstValue to ${ungraded_price:.2f}")
+            
+            print(f"    ✅ Ungraded: ${prices.get('ungraded', 'N/A')}")
+            print(f"    ✅ Grade 6.0: ${prices.get('grade_6_0', 'N/A')}")
+            print(f"    ✅ Grade 8.0: ${prices.get('grade_8_0', 'N/A')}")
+            
+        elif series == 'Amazing Spider-Man' and issue_number:
+            print(f"  ⚠️  Amazing Spider-Man #{issue_number} not found on PriceCharting")
+            comic['PriceData']['status'] = 'not_found'
+            
+        elif series.startswith('Peter Parker'):
+            print(f"  ℹ️  Skipping {series} #{issue_number} (not on Amazing Spider-Man page)")
+            comic['PriceData']['status'] = 'different_series'
+            
         else:
             print(f"  ℹ️  Skipping {comic['Title']} (unable to identify series/issue)")
-            comic['PriceChartingData']['status'] = 'unable_to_parse'
+            comic['PriceData']['status'] = 'unable_to_parse'
     
     # Save enhanced data back to same file with UTF-8 encoding
     print(f"\n💾 Saving enhanced data to {json_path}...")
     with open(json_path, 'w', encoding='utf-8') as f:
-        json.dump(enhanced_comics, f, indent=4, ensure_ascii=False)
+        json.dump(comics_data, f, indent=4, ensure_ascii=False)
     
-    print(f"\n✅ Enhanced data saved! Your JSON now has:")
-    print(f"   📚 Original collector data in 'ManualData'")
-    print(f"   💰 Live prices in 'PriceChartingData'")
-    print(f"   🏷️  Issue numbers, series, and years extracted")
+    print(f"\n✅ Enhanced data saved!")
+    print(f"   📚 Preserved original collector data")
+    print(f"   💰 Added live prices in 'PriceData' section")
+    print(f"   🏷️  Updated EstValue from ungraded prices")
 
 def extract_issue_number(title: str) -> Optional[int]:
     """Extract issue number from title like 'Amazing Spider-Man #315'"""
@@ -136,27 +119,3 @@ def extract_series(title: str) -> str:
         # Extract everything before the #
         match = re.match(r'^([^#]+)', title)
         return match.group(1).strip() if match else 'Unknown Series'
-
-def estimate_year(series: str, issue_number: Optional[int]) -> Optional[int]:
-    """Estimate publication year based on series and issue number"""
-    if not issue_number:
-        return None
-    
-    # Rough estimates based on publication history
-    if series == 'Amazing Spider-Man':
-        if issue_number <= 100:
-            return 1963 + ((issue_number - 1) // 12)
-        elif issue_number <= 200:
-            return 1971 + ((issue_number - 101) // 12)
-        elif issue_number <= 300:
-            return 1979 + ((issue_number - 201) // 12)
-        elif issue_number <= 400:
-            return 1987 + ((issue_number - 301) // 12)
-        else:
-            return 1995 + ((issue_number - 401) // 12)
-    
-    elif series.startswith('Peter Parker'):
-        # Spectacular Spider-Man started in 1976
-        return 1976 + ((issue_number - 1) // 12)
-    
-    return None

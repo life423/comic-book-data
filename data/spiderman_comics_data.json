@@ -1,59 +1,114 @@
 [
     {
         "Title": "Amazing Spider-Man #315",
-        "Grade": "9.4–9.8",
+        "Grade": "Ungraded",
         "EstValue": "$70–$200",
         "KeyNotes": "Early Venom return & 2nd full cover; part of McFarlane’s Venom trilogy",
         "Event": "Hydro-Man & Venom team-up",
-        "Creator": "Todd McFarlane (art & cover), David Michelinie (writer)"
+        "Creator": "Todd McFarlane (art & cover), David Michelinie (writer)",
+        "PriceData": {
+            "ungraded": null,
+            "grade_6_0": null,
+            "grade_8_0": null,
+            "source": "PriceCharting.com",
+            "updated": "2025-06-20",
+            "status": "not_found"
+        }
     },
     {
         "Title": "Amazing Spider-Man #221",
-        "Grade": "9.4–9.8",
+        "Grade": "Ungraded",
         "EstValue": "$60–$150",
         "KeyNotes": "1st Ramrod (cyborg villain); cameo Debra Whitman",
         "Event": "Crisis on Campus – Race of Ramrod",
-        "Creator": "Denny O’Neil (script), Win Mortimer (art)"
+        "Creator": "Denny O’Neil (script), Win Mortimer (art)",
+        "PriceData": {
+            "ungraded": null,
+            "grade_6_0": null,
+            "grade_8_0": null,
+            "source": "PriceCharting.com",
+            "updated": "2025-06-20",
+            "status": "not_found"
+        }
     },
-
     {
         "Title": "Peter Parker, The Spectacular Spider-Man #58",
-        "Grade": "9.4–9.8",
+        "Grade": "Ungraded",
         "EstValue": "$65–$110",
         "KeyNotes": "1st Beetle Mark II armor debut; Ringer cover",
         "Event": "Beetle’s new armor",
-        "Creator": "Roger Stern (story), John Byrne (pencils)"
+        "Creator": "Roger Stern (story), John Byrne (pencils)",
+        "PriceData": {
+            "ungraded": null,
+            "grade_6_0": null,
+            "grade_8_0": null,
+            "source": "PriceCharting.com",
+            "updated": "2025-06-20",
+            "status": "different_series"
+        }
     },
     {
         "Title": "Peter Parker, The Spectacular Spider-Man #71",
-        "Grade": "9.4–9.8",
+        "Grade": "Ungraded",
         "EstValue": "$30–$100",
         "KeyNotes": "Non-key; striking “With This Gun…” cover",
         "Event": "Gun-themed one-off",
-        "Creator": "Bill Mantlo (script), John Romita Jr. & Jim Mooney (art)"
+        "Creator": "Bill Mantlo (script), John Romita Jr. & Jim Mooney (art)",
+        "PriceData": {
+            "ungraded": null,
+            "grade_6_0": null,
+            "grade_8_0": null,
+            "source": "PriceCharting.com",
+            "updated": "2025-06-20",
+            "status": "different_series"
+        }
     },
     {
         "Title": "Amazing Spider-Man #116",
-        "Grade": "9.4–9.8",
+        "Grade": "Ungraded",
         "EstValue": "$100–$250",
         "KeyNotes": "Adaptation of Spectacular Spider-Man Magazine #1; notable story arc",
         "Event": "Spidey vs. Smasher & Richard Raleigh arc begins",
-        "Creator": "Stan Lee (writer), John Romita Sr. (cover), Gerry Conway (adaptation)"
+        "Creator": "Stan Lee (writer), John Romita Sr. (cover), Gerry Conway (adaptation)",
+        "PriceData": {
+            "ungraded": null,
+            "grade_6_0": null,
+            "grade_8_0": null,
+            "source": "PriceCharting.com",
+            "updated": "2025-06-20",
+            "status": "not_found"
+        }
     },
     {
         "Title": "Amazing Spider-Man #193",
-        "Grade": "9.4–9.8",
+        "Grade": "Ungraded",
         "EstValue": "$60–$150",
         "KeyNotes": "2nd appearance of Fly; minor villain key",
         "Event": "The Wings of the Fearsome Fly!",
-        "Creator": "Marv Wolfman (writer), Keith Pollard (art & cover)"
+        "Creator": "Marv Wolfman (writer), Keith Pollard (art & cover)",
+        "PriceData": {
+            "ungraded": null,
+            "grade_6_0": null,
+            "grade_8_0": null,
+            "source": "PriceCharting.com",
+            "updated": "2025-06-20",
+            "status": "not_found"
+        }
     },
     {
         "Title": "Amazing Spider-Man #115",
-        "Grade": "9.4–9.8",
+        "Grade": "Ungraded",
         "EstValue": "$80–$250",
         "KeyNotes": "Doctor Octopus vs Hammerhead; classic villain rivalry",
         "Event": "Spidey caught in gang war (Doc Ock vs. Hammerhead)",
-        "Creator": "Gerry Conway (writer), John Romita Sr. (cover), John Romita Sr. & Tony Mortellaro (art)"
+        "Creator": "Gerry Conway (writer), John Romita Sr. (cover), John Romita Sr. & Tony Mortellaro (art)",
+        "PriceData": {
+            "ungraded": null,
+            "grade_6_0": null,
+            "grade_8_0": null,
+            "source": "PriceCharting.com",
+            "updated": "2025-06-20",
+            "status": "not_found"
+        }
     }
 ]
