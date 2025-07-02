@@ -7,6 +7,10 @@ on:
   
   # Allow manual triggering for testing
   workflow_dispatch:
+  
+  # Trigger on pushes to main branch
+  push:
+    branches: [ main ]
 
 jobs:
   update-prices:
