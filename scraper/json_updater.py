@@ -63,7 +63,7 @@ def update_json_with_prices(json_path: str):
     found_count = 0
     spectacular_count = 0
     
-    
+    # Process comics to generate summary
     for comic in updated_comics:
         title = comic.get('Title', '')
         status = comic.get('PriceData', {}).get('status', 'unknown')
