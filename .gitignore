@@ -3,6 +3,7 @@ credentials/
 *.json
 !package.json
 !package-lock.json
+!data/spiderman_comics_data.json
 .env
 .env.local
 .env.production

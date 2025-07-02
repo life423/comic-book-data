@@ -212,6 +212,7 @@ class PriceChartingScraper:
                 if price_val and price_val > 0:
                     extracted_prices.append(price_val)
             
+            # Only process if we found valid prices
             if extracted_prices:
                 extracted_prices.sort()  # Sort low to high
                 
@@ -223,18 +224,18 @@ class PriceChartingScraper:
                 elif len(extracted_prices) >= 2:
                     prices['ungraded'] = extracted_prices[0]
                     prices['grade_8_0'] = extracted_prices[1]
-                else:
+                elif len(extracted_prices) >= 1:
                     prices['ungraded'] = extracted_prices[0]
         
         return prices
     
     def _extract_price_value(self, price_text: str) -> Optional[float]:
         """Extract numeric price from text like '$45.00' or '45'"""
-        if not price_text or price_text.lower() in ['n/a', '-', '']:
+        if not price_text or price_text.lower() in ['n/a', '-', '', 'none']:
             return None
         
         # Clean the text and look for price patterns
-        price_text = price_text.replace(',', '').replace('$', '').strip()
+        price_text = str(price_text).replace(',', '').replace('$', '').strip()
         
         # Look for decimal numbers
         price_match = re.search(r'(\d+\.?\d*)', price_text)
@@ -244,7 +245,7 @@ class PriceChartingScraper:
                 # Sanity check - reject unreasonable prices
                 if 0.01 <= price <= 100000:
                     return price
-            except ValueError:
+            except (ValueError, TypeError):
                 pass
         
         return None
