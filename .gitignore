@@ -108,7 +108,8 @@ coverage.xml
 cover/
 
 # Data files
-data/
+data/*
+!data/spiderman_comics_data.json
 exports/
 backups/
 cache/
