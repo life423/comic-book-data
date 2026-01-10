@@ -11,7 +11,7 @@
             "grade_6_0": 294.75,
             "grade_8_0": null,
             "source": "PriceCharting.com",
-            "updated": "2026-01-09",
+            "updated": "2026-01-10",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-315-1988",
             "status": "found"
         }
@@ -28,7 +28,7 @@
             "grade_6_0": 161.75,
             "grade_8_0": null,
             "source": "PriceCharting.com",
-            "updated": "2026-01-09",
+            "updated": "2026-01-10",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-221-1979",
             "status": "found"
         }
@@ -45,7 +45,7 @@
             "grade_6_0": null,
             "grade_8_0": null,
             "source": "PriceCharting.com",
-            "updated": "2026-01-09",
+            "updated": "2026-01-10",
             "status": "different_series"
         }
     },
@@ -61,23 +61,23 @@
             "grade_6_0": null,
             "grade_8_0": null,
             "source": "PriceCharting.com",
-            "updated": "2026-01-09",
+            "updated": "2026-01-10",
             "status": "different_series"
         }
     },
     {
         "Title": "Amazing Spider-Man #116",
         "Grade": "Ungraded",
-        "EstValue": "$18.23",
+        "EstValue": "$14.99",
         "KeyNotes": "Adaptation of Spectacular Spider-Man Magazine #1; notable story arc",
         "Event": "Spidey vs. Smasher & Richard Raleigh arc begins",
         "Creator": "Stan Lee (writer), John Romita Sr. (cover), Gerry Conway (adaptation)",
         "PriceData": {
-            "ungraded": 18.23,
+            "ungraded": 14.99,
             "grade_6_0": 24.03,
             "grade_8_0": 939.98,
             "source": "PriceCharting.com",
-            "updated": "2026-01-09",
+            "updated": "2026-01-10",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-116-1973",
             "status": "found"
         }
@@ -94,7 +94,7 @@
             "grade_6_0": 43.99,
             "grade_8_0": 121.82,
             "source": "PriceCharting.com",
-            "updated": "2026-01-09",
+            "updated": "2026-01-10",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-193-1979",
             "status": "found"
         }
@@ -111,7 +111,7 @@
             "grade_6_0": 56.26,
             "grade_8_0": 3813.8,
             "source": "PriceCharting.com",
-            "updated": "2026-01-09",
+            "updated": "2026-01-10",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-115-1972",
             "status": "found"
         }
@@ -127,7 +127,7 @@
             "grade_6_0": 69.99,
             "grade_8_0": null,
             "source": "PriceCharting.com",
-            "updated": "2026-01-09",
+            "updated": "2026-01-10",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-298-1986",
             "status": "found"
         }
@@ -143,7 +143,7 @@
             "grade_6_0": 62.0,
             "grade_8_0": null,
             "source": "PriceCharting.com",
-            "updated": "2026-01-09",
+            "updated": "2026-01-10",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-299-1986",
             "status": "found"
         }
@@ -159,7 +159,7 @@
             "grade_6_0": 294.75,
             "grade_8_0": 2674.5,
             "source": "PriceCharting.com",
-            "updated": "2026-01-09",
+            "updated": "2026-01-10",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-300-1988",
             "status": "found"
         }
