@@ -11,7 +11,7 @@
             "grade_6_0": 300.0,
             "grade_8_0": null,
             "source": "PriceCharting.com",
-            "updated": "2026-01-26",
+            "updated": "2026-01-27",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-315-1988",
             "status": "found"
         }
@@ -25,10 +25,10 @@
         "Creator": "Denny O’Neil (script), Win Mortimer (art)",
         "PriceData": {
             "ungraded": 135.0,
-            "grade_6_0": 160.9,
+            "grade_6_0": 163.01,
             "grade_8_0": null,
             "source": "PriceCharting.com",
-            "updated": "2026-01-26",
+            "updated": "2026-01-27",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-221-1979",
             "status": "found"
         }
@@ -45,7 +45,7 @@
             "grade_6_0": null,
             "grade_8_0": null,
             "source": "PriceCharting.com",
-            "updated": "2026-01-26",
+            "updated": "2026-01-27",
             "status": "different_series"
         }
     },
@@ -61,7 +61,7 @@
             "grade_6_0": null,
             "grade_8_0": null,
             "source": "PriceCharting.com",
-            "updated": "2026-01-26",
+            "updated": "2026-01-27",
             "status": "different_series"
         }
     },
@@ -77,7 +77,7 @@
             "grade_6_0": 24.03,
             "grade_8_0": 939.98,
             "source": "PriceCharting.com",
-            "updated": "2026-01-26",
+            "updated": "2026-01-27",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-116-1973",
             "status": "found"
         }
@@ -94,7 +94,7 @@
             "grade_6_0": 43.99,
             "grade_8_0": 129.92,
             "source": "PriceCharting.com",
-            "updated": "2026-01-26",
+            "updated": "2026-01-27",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-193-1979",
             "status": "found"
         }
@@ -111,7 +111,7 @@
             "grade_6_0": 56.12,
             "grade_8_0": 3813.8,
             "source": "PriceCharting.com",
-            "updated": "2026-01-26",
+            "updated": "2026-01-27",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-115-1972",
             "status": "found"
         }
@@ -119,15 +119,15 @@
     {
         "Title": "Amazing Spider-Man #298",
         "Grade": "Ungraded",
-        "EstValue": "$61.60",
+        "EstValue": "$53.49",
         "KeyNotes": "First Eddie Brock as Venom; pivotal introduction",
         "Creator": "David Michelinie (writer), Todd McFarlane (cover & art)",
         "PriceData": {
-            "ungraded": 61.6,
+            "ungraded": 53.49,
             "grade_6_0": 69.99,
             "grade_8_0": null,
             "source": "PriceCharting.com",
-            "updated": "2026-01-26",
+            "updated": "2026-01-27",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-298-1986",
             "status": "found"
         }
@@ -143,7 +143,7 @@
             "grade_6_0": 62.0,
             "grade_8_0": null,
             "source": "PriceCharting.com",
-            "updated": "2026-01-26",
+            "updated": "2026-01-27",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-299-1986",
             "status": "found"
         }
@@ -159,7 +159,7 @@
             "grade_6_0": 300.0,
             "grade_8_0": 2500.0,
             "source": "PriceCharting.com",
-            "updated": "2026-01-26",
+            "updated": "2026-01-27",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-300-1988",
             "status": "found"
         }
