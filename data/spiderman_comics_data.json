@@ -11,7 +11,7 @@
             "grade_6_0": 325.68,
             "grade_8_0": null,
             "source": "PriceCharting.com",
-            "updated": "2026-06-28",
+            "updated": "2026-06-29",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-315-1988",
             "status": "found"
         }
@@ -19,16 +19,16 @@
     {
         "Title": "Amazing Spider-Man #221",
         "Grade": "Ungraded",
-        "EstValue": "$130.70",
+        "EstValue": "$153.17",
         "KeyNotes": "1st Ramrod (cyborg villain); cameo Debra Whitman",
         "Event": "Crisis on Campus – Race of Ramrod",
         "Creator": "Denny O’Neil (script), Win Mortimer (art)",
         "PriceData": {
-            "ungraded": 130.7,
-            "grade_6_0": 170.98,
+            "ungraded": 153.17,
+            "grade_6_0": 171.17,
             "grade_8_0": null,
             "source": "PriceCharting.com",
-            "updated": "2026-06-28",
+            "updated": "2026-06-29",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-221-1979",
             "status": "found"
         }
@@ -45,7 +45,7 @@
             "grade_6_0": null,
             "grade_8_0": null,
             "source": "PriceCharting.com",
-            "updated": "2026-06-28",
+            "updated": "2026-06-29",
             "status": "different_series"
         }
     },
@@ -61,7 +61,7 @@
             "grade_6_0": null,
             "grade_8_0": null,
             "source": "PriceCharting.com",
-            "updated": "2026-06-28",
+            "updated": "2026-06-29",
             "status": "different_series"
         }
     },
@@ -77,7 +77,7 @@
             "grade_6_0": 43.04,
             "grade_8_0": 985.0,
             "source": "PriceCharting.com",
-            "updated": "2026-06-28",
+            "updated": "2026-06-29",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-116-1973",
             "status": "found"
         }
@@ -85,33 +85,33 @@
     {
         "Title": "Amazing Spider-Man #193",
         "Grade": "Ungraded",
-        "EstValue": "$8.42",
+        "EstValue": "$7.82",
         "KeyNotes": "2nd appearance of Fly; minor villain key",
         "Event": "The Wings of the Fearsome Fly!",
         "Creator": "Marv Wolfman (writer), Keith Pollard (art & cover)",
         "PriceData": {
-            "ungraded": 8.42,
-            "grade_6_0": 43.99,
-            "grade_8_0": 135.25,
+            "ungraded": 7.82,
+            "grade_6_0": null,
+            "grade_8_0": null,
             "source": "PriceCharting.com",
-            "updated": "2026-06-28",
-            "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-193-1979",
+            "updated": "2026-06-29",
+            "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-193-1977",
             "status": "found"
         }
     },
     {
         "Title": "Amazing Spider-Man #115",
         "Grade": "Ungraded",
-        "EstValue": "$20.00",
+        "EstValue": "$19.50",
         "KeyNotes": "Doctor Octopus vs Hammerhead; classic villain rivalry",
         "Event": "Spidey caught in gang war (Doc Ock vs. Hammerhead)",
         "Creator": "Gerry Conway (writer), John Romita Sr. (cover), John Romita Sr. & Tony Mortellaro (art)",
         "PriceData": {
-            "ungraded": 20.0,
+            "ungraded": 19.5,
             "grade_6_0": 49.68,
-            "grade_8_0": 4014.49,
+            "grade_8_0": 4047.18,
             "source": "PriceCharting.com",
-            "updated": "2026-06-28",
+            "updated": "2026-06-29",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-115-1972",
             "status": "found"
         }
@@ -127,7 +127,7 @@
             "grade_6_0": 75.0,
             "grade_8_0": 532.98,
             "source": "PriceCharting.com",
-            "updated": "2026-06-28",
+            "updated": "2026-06-29",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-298-1988",
             "status": "found"
         }
@@ -135,15 +135,15 @@
     {
         "Title": "Amazing Spider-Man #299",
         "Grade": "Ungraded",
-        "EstValue": "$83.00",
+        "EstValue": "$79.00",
         "KeyNotes": "Continues Eddie Brock/Venom storyline",
         "Creator": "David Michelinie (writer), Todd McFarlane (cover & art)",
         "PriceData": {
-            "ungraded": 83.0,
+            "ungraded": 79.0,
             "grade_6_0": 63.2,
-            "grade_8_0": 404.84,
+            "grade_8_0": 440.0,
             "source": "PriceCharting.com",
-            "updated": "2026-06-28",
+            "updated": "2026-06-29",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-299-1988",
             "status": "found"
         }
@@ -159,7 +159,7 @@
             "grade_6_0": 325.68,
             "grade_8_0": 2729.0,
             "source": "PriceCharting.com",
-            "updated": "2026-06-28",
+            "updated": "2026-06-29",
             "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-300-1988",
             "status": "found"
         }
